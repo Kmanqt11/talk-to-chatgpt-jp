@@ -280,7 +280,8 @@ function CN_StartSpeechRecognition() {
 			
 			// Show start button, hide action buttons
 			jQuery(".CNStartZone").show();
-			jQuery(".CNActionButtons").hide();
+			jQuery(".CNActionButtons
+
 			
 			return;
 		} else if (final_transcript.toLowerCase() == CN_SAY_THIS_WORD_TO_PAUSE) {
